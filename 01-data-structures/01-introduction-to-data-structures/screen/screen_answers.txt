@@ -1,0 +1,8 @@
+Screen answers:
+1. The data structured used is an (x,y) matrix from an array or arrays.
+   The developer can set pixel positions within the matrix.
+
+2. An element in this structure would be a location in the matrix, so that could use the at(x, y) to find the corresponding x and y array.
+
+3. This structure could be used for data that requires a structured matrix that has X and Y coordinates
+   This could include being graphing, or games like Battleship, or Connect Four.

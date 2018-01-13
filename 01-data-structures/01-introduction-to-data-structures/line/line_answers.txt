@@ -1,0 +1,15 @@
+Line answers:
+1. The data structure used is an array which simulates the line.
+  It allows the developer to go and perform these tasks:
+  - add a person to the back of the line
+  - remove someone from the line
+  - search for a person in the line
+  - find the first, last, and middle person in the line.
+  - find the location of someone in the line
+
+2. As, the elements in the data structure represent people.
+   The developer would use the search(person)function to find a specific element.
+
+3. While we are using this for an amusement park, this could represent most real world scenarios that includes
+   a list where that items can be added to added or removed.
+   EX. Restaurants, line at the DMV, a to-do list.

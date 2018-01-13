@@ -1,0 +1,30 @@
+Questions:
+1. How does your data structure allow developers to access and manipulate the data?
+2. If a developer wanted to find a specific element in your data structure, how would you search for it?
+3. What other real-world data can each structure represent?
+
+Line answers:
+1. The data structure used is an array which simulates the line.
+  It allows the developer to go and perform these tasks:
+  - add a person to the back of the line
+  - remove someone from the line
+  - search for a person in the line
+  - find the first, last, and middle person in the line.
+  - find the location of someone in the line
+
+2. As, the elements in the data structure represent people.
+   The developer would use the search(person)function to find a specific element.
+
+3. While we are using this for an amusement park, this could represent most real world scenarios that includes
+   a list where that items can be added to added or removed.
+   EX. Restaurants, line at the DMV, a to-do list.
+
+
+Screen answers:
+1. The data structured used is an (x,y) matrix from an array or arrays.
+   The developer can set pixel positions within the matrix.
+
+2. An element in this structure would be a location in the matrix, so that could use the at(x, y) to find the corresponding x and y array.
+
+3. This structure could be used for data that requires a structured matrix that has X and Y coordinates
+   This could include being graphing, or games like Battleship, or Connect Four.
