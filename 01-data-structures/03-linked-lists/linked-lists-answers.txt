@@ -1,0 +1,19 @@
+1)  Spatial locality refers to the relative location of data elements in relation to each and how they are stored within relatively close storage locations.
+    In an array, the data is stored with sequential locality (a special case of spatial locality), where the data is arranged linearly in the memory making it easier to access the information.
+    Overall, spatial locality offers more efficient memory access and predictability.
+
+2) Benchmark of Arrays vs Linked Lists.
+
+Data from Benchmark tests:
+                               user     system      total        real
+Add 10,000 items to array    0.010000   0.000000   0.010000 (  0.002874)
+Append 10,000 items in list  0.000000   0.000000   0.000000 (  0.004536
+
+Access 5,000th item in array 0.000000   0.000000   0.000000 (  0.000275)
+Access 5,000th item in list  0.000000   0.000000   0.000000 (  0.000006)
+
+Delete 5,000th item in array 0.000000   0.000000   0.000000 (  0.000004)
+Delete 5,000th item in list  0.000000   0.000000   0.000000 (  0.000260)
+
+Findings:
+When comparing arrays, to linked lists, the data shows that arrays are significantly quicker than linked lists when storing, accessing, and deleting information.
