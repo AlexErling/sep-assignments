@@ -1,0 +1,3 @@
+One of the issues is doubling the size of the hash is that one will have to reassign each element to a new larger index which is not an efficient process.
+Also, doubling the size creates more memory than is necessary for all the values in the hash. All the memory the hash takes up, would not necessarily be used to store information. Additionally, this will diminish the spatial locality from the array to store the hash values.
+Keeping these things in mind, it would be inefficient to increase the size of the hash.
