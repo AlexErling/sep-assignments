@@ -6,6 +6,7 @@ class HashClass
     @size = size
   end
 
+#Adds a new object
   def []=(key, value)
     hashed_item = @items[index(key, @size)]
     if hashed_item.nil?
@@ -23,6 +24,7 @@ class HashClass
     end
   end
 
+#Returns the value when given the value
   def [](key)
     item = @items[index(key, @size)]
     item.nil? ? nil : item.value

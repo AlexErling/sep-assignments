@@ -1,0 +1,24 @@
+Describe three collision resolution strategies:
+
+1. Robin Hood Hashing:
+    This is a variation of open-addressing based hash tables. When a collision occurs, the hash will examine the two objects
+    and determine which has a longer probe sequence (list of locations which a method for open addressing produces an as alternatives in case of a collision).
+    The other item will then have to be reallocated. Overall, this tends to equalize the length of probe sequences
+2. Random hashing:
+    Random hashing will randomly generated numbers that are seeded by the key to determine the index value. It will keep generating new numbers until an open spot is found.
+3. 2-Choice Hashing:
+    This is a variant of a has table in which keys are added with two hash functions which will provide two locations to choose from. The key will then be put in the array with the fewer colliding keys.
+
+Own collision resolution strategy:
+One idea would be to create an openSpot variable at the beginning of the array. If a collision occurs, the hash will place the index at the openSpot,
+then the openSpot would call a function similar to next_open_index to find another available spot in the array.
+When the openSpot search can't find an openSpot anymore, it will resize the hash.
+
+Printing Output
+
+Load Factor: 0.42
+Index: 0, Value: #<LinkedList:0x007fdab08a62d0 @head=#<Node:0x007fdab08a6398 @key="Star Wars: The Empire Strikes Back", @value="Number Five">, @tail=#<Node:0x007fdab08a6398 @key="Star Wars: The Empire Strikes Back", @value="Number Five">>
+Index: 1, Value: #<LinkedList:0x007fdab08a62a8 @head=#<Node:0x007fdab08a6578 @key="Star Wars: Attack of the Clones", @value="Number Two", @next=#<Node:0x007fdab08a61e0 @key="Star Wars: Return of the Jedi", @value="Number Six", @prev=#<Node:0x007fdab08a6578 ...>>>, @tail=#<Node:0x007fdab08a61e0 @key="Star Wars: Return of the Jedi", @value="Number Six", @prev=#<Node:0x007fdab08a6578 @key="Star Wars: Attack of the Clones", @value="Number Two", @next=#<Node:0x007fdab08a61e0 ...>>>>
+Index: 2, Value: #<LinkedList:0x007fdab08a6280 @head=#<Node:0x007fdab08a6438 @key="Star Wars: A New Hope", @value="Number Four">, @tail=#<Node:0x007fdab08a6438 @key="Star Wars: A New Hope", @value="Number Four">>
+Index: 3, Value: #<LinkedList:0x007fdab08a62f8 @head=#<Node:0x007fdab08a6618 @key="Star Wars: The Phantom Menace", @value="Number One">, @tail=#<Node:0x007fdab08a6618 @key="Star Wars: The Phantom Menace", @value="Number One">>
+Index: 4, Value: #<LinkedList:0x007fdab08a6258 @head=#<Node:0x007fdab08a64d8 @key="Star Wars: Revenge of the Sith", @value="Number Three">, @tail=#<Node:0x007fdab08a64d8 @key="Star Wars: Revenge of the Sith", @value="Number Three">>
