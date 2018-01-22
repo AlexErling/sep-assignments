@@ -1,7 +1,6 @@
 include RSpec
 
 require_relative 'separate_chaining'
-require_relative 'hash_printer'
 
 RSpec.describe SeparateChaining, type: Class do
   let(:star_wars_movies) { SeparateChaining.new(6) }
