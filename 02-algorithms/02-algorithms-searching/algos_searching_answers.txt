@@ -1,0 +1,35 @@
+1. It would take seven steps with linear search.
+2. Three steps using binary search.
+3. fib(10) = 0 + 1 + (1+0) + (1+1) + (2+1) + (2+3) + (3+5) + (5+8) + (8+13) + (13+21) + (21+34) => 55
+   fib(11) = 0..(34+55) => 89
+   fib(12) = 0..(55+89) => 144
+
+Results:
+
+Benchmark test to find 30th number in Fibonacci sequence.
+
+             user     system      total        real
+recursive:  0.100000   0.010000   0.110000 (  0.103845)
+iterative:  0.000000   0.000000   0.000000 (  0.000012)
+
+
+Testing Iterative vs Recursive Binary Searches
+
+Searching for 500,000.
+                                                user     system      total        real
+Iterative search for 500000 in sorted array.  0.000000   0.000000   0.000000 (  0.000009)
+Recursive search for 500000 in sorted array.  0.000000   0.000000   0.000000 (  0.000005)
+
+Searching for 999,999.
+                                                user     system      total        real
+Iterative search for 999999 in sorted array.  0.000000   0.000000   0.000000 (  0.000005)
+Recursive search for 999999 in sorted array.  0.000000   0.000000   0.000000 (  0.001548)
+
+Searching for 1000.
+                                                user     system      total        real
+Iterative search for 1000 in sorted array.    0.000000   0.000000   0.000000 (  0.000006)
+Recursive search for 1000 in sorted array.    0.000000   0.000000   0.000000 (  0.000008)
+
+4. For an unsorted collection, I would use an iterative linear search. You can't use binary search on an unsorted collection and iterative searches are faster.
+
+5. For a sorted collection, I would use an iterative binary search. Binary search is faster for sorted collections and iterative searches perform more quickly.
