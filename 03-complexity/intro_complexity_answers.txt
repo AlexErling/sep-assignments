@@ -1,0 +1,12 @@
+1. An algorithm that has O(1) is a Lamborghini and an algorithm that has O(2n) is a Tractor.
+2. The best-case scenario for binary search is that the first item we search for is the one we are looking for. In other words, it will take the least amount of time to find the item.
+3. The worst-case scenario for binary search is that the we don't find the item we are searching for until the very last item we look at. In others, the search will take the maximum amount of time to find the item.
+4. The bounded-case scenario for binary search is that we know the search will be between the best-case (lower bound) and worst-case scenario (upper bound) and it will not exceed these boundaries.
+5. Graph will be attached
+6. The limit is infinity.
+7. O(2^n)
+8. See worst_case.rb
+9. See question 5.
+10. Big O = O(log n)
+11. Big Ω = Ω(1)
+12. Big Ө = Ө(log n)
