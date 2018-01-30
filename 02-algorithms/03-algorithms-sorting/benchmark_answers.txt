@@ -1,0 +1,15 @@
+
+
+Results:
+
+                          user     system      total        real
+bucket sort            0.000000   0.000000   0.000000 (  0.000057)
+heap sort              0.000000   0.000000   0.000000 (  0.000063)
+quick sort             0.000000   0.000000   0.000000 (  0.000121)
+insertion sort         0.000000   0.000000   0.000000 (  0.000051)
+bubble sort            0.000000   0.000000   0.000000 (  0.000006)
+selection sort         0.000000   0.000000   0.000000 (  0.000005)
+merge sort             0.000000   0.000000   0.000000 (  0.000005)
+
+
+I think the differences in time range due to the amount of steps in each process and how the code is written. The sorts that include recursion will take longer, or require more steps for the computer to compute will take longer. It also will be determined by the array size. For example bucket sort was quicker in this scenario than quick sort, but it may be due to a small array size. If it was larger, quick sort would probably be quicker. 
