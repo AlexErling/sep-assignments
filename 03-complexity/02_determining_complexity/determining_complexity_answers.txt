@@ -1,0 +1,6 @@
+1. The Big-O of this algorithm is O(1). No matter what N is in the function, it will take a constant amount of time.
+2. The Big-O of this algorithm is O(n). This function is iterating over N amount of elements in the array, so it will take a linear amount of time based on the number of elements.
+3. The Big-O of this algorithm is O(n). Although there are now sub-collections, it is still iterating over each element once, so it will take a linear amount of time based on the number of elements.
+4. The Big-O of this algorithm is O(2^n). The worst-case run time is exponential due to the nature of the recursion in the function. Every time N gets larger, it will take twice as long to complete the function.
+5. The Big-O of this algorithm is O(n). This function will be linear, because it will be running n number of iterations.
+6. The Big-O of this algorithm is O(n^2). In this function, running in the worst case scenario, it will be iterating through each element, and then comparing to every single over element, which turn outs to be O(n^2).
