@@ -1,0 +1,23 @@
+Results:
+* note - the number signifies total number of objects in all arrays combined
+
+                                  user     system      total        real
+poorly written - 100            0.000000   0.000000   0.000000 (  0.000286)
+poorly written - 1000           0.020000   0.000000   0.020000 (  0.022009)
+poorly written - 10000          2.280000   0.000000   2.280000 (  2.283874)
+poorly written - 100000         228.810000   0.330000 229.140000 (229.813776)
+well written - 100              0.000000   0.000000   0.000000 (  0.000375)
+well written - 1000             0.030000   0.000000   0.030000 (  0.022391)
+well written - 10000            2.200000   0.010000   2.210000 (  2.205647)
+well written - 100000           226.370000   0.310000 226.680000 (226.990516)
+better written - 100            0.000000   0.000000   0.000000 (  0.000158)
+better written - 1000           0.000000   0.000000   0.000000 (  0.001751)
+better written - 10000          0.030000   0.000000   0.030000 (  0.028398)
+better written - 100000         0.330000   0.010000   0.340000 (  0.342436)
+best written - 100              0.000000   0.000000   0.000000 (  0.000036)
+best written - 1000             0.000000   0.000000   0.000000 (  0.000224)
+best written - 10000            0.000000   0.000000   0.000000 (  0.002353)
+best written - 100000           0.030000   0.000000   0.030000 (  0.025552)
+
+Findings:
+Cleaning up the code, but keeping the same algorithm barely improved the speed of the function. Switching to a quick sort algorithm, vastly improved the time. However, using the sort! function from ruby improves the time and space efficiency even more, by not having to go through another function and not taking up extra space.
